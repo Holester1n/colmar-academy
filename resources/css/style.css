@@ -1,0 +1,28 @@
+ol, ul {
+    list-style: none;
+}
+
+header {
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    display: block;
+    background-color: white;
+    height: 64px;
+    margin: auto 24px;
+}
+
+header .content {
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+}
+
+header a {
+    height: 32px;
+}
