@@ -58,6 +58,7 @@ header a {
     background-color: gray;
     text-align: center;
     color: white;
+    transition: background-color 200ms linear 30ms;
 }
 
 .information-section {
@@ -98,6 +99,7 @@ header a {
     display: flex;
     padding: 16px;
     align-items: center;
+    transition: background-color 200ms linear 30ms;
 }
 
 .announcement-card:hover {
@@ -188,6 +190,7 @@ video {
     padding: 16px;
     align-items: center;
     background-color: white;
+    transition: background-color 200ms linear 30ms;
 }
 
 .thesis-card:hover {
@@ -231,4 +234,9 @@ footer .content-container {
     display: flex;
     justify-content: space-around;
     gap: 10px;
+}
+
+.start-menu h4:hover {
+    background-color: black;
+    transition: ;
 }
