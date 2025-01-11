@@ -1,5 +1,5 @@
 header {
-    position: fixed;
+    position: sticky;
     z-index: 1;
     width: 100%;
     display: block;
@@ -8,7 +8,7 @@ header {
     width: 100%;
     padding: 16px 24px;
     box-sizing: border-box;
-    border: blue 1px solid;
+    
 }
 
 header .content {
@@ -16,7 +16,7 @@ header .content {
     justify-content: space-between;
     background-color: white;
     height: 32px;
-    border: red 1px solid;
+    
     align-items: center;
 }
 
@@ -30,4 +30,49 @@ header a {
     height: 32px;
     display: flex;
     align-items: center;
+}
+
+.start-section {
+    max-width: 100%;
+    padding: 32px 24px;
+    display: flex;
+}
+
+.start-section img {
+    width: 60%;
+    margin-right: 24px;
+    
+}
+
+.start-menu {
+    
+    line-height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.start-menu h4 {
+    padding: 8px 0;
+    background-color: gray;
+    text-align: center;
+    color: white;
+}
+
+.information-section {
+    max-width: 100%;
+    padding: 32px 0px 32px 24px;
+    border: red 1px solid;
+}
+
+.banner {
+    width: 60%;
+    border: blue 1px solid;
+}
+.banner img {
+    width: 100%;
+}
+
+.banner p {
+    width: 100%;
 }
