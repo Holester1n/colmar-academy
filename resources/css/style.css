@@ -156,3 +156,79 @@ header a {
 .learning-card .text-container {
     margin: 16px auto 24px 16px;
 }
+
+.thesis h1 {
+    width: 100%;
+    display: block;
+    text-align: center;
+    padding: 32px 0px;
+    margin: 0;
+}
+
+.video-container {
+    width: 60%;
+    
+}
+
+video {
+    max-width: 100%;
+}
+
+.video-text {
+    text-align: left;
+    margin: 24px 0px 32px 0px;
+}
+
+.thesis-container {
+    width: 40%;
+}
+
+.thesis-card {
+    display: flex;
+    padding: 16px;
+    align-items: center;
+    background-color: white;
+}
+
+.thesis-card:hover {
+    background-color: lightgray;
+}
+
+.thesis-card img {
+    width: 35%;
+    height: auto;
+    display: block;
+}
+
+.thesis-text-container, .thesis-text-container h1 {
+    margin-left: 16px;
+    width: 65%;
+    text-align: left;
+    margin-bottom: 0px;
+}
+
+.thesis-content {
+    max-width: 100%;
+    padding: 32px 0px 32px 24px;
+    display: flex;
+    gap: 24px;
+}
+
+.thesis {
+    border-bottom: lightgray 1px solid;
+}
+
+footer {
+    margin: 16px 24px;
+}
+
+footer .content-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.terms-privacy {
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+}
