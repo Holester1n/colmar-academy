@@ -120,3 +120,39 @@ header a {
 .card-text a {
     color: blue;
 }
+
+.courses {
+    background-color: lightgray;
+    padding-bottom: 32px;
+}
+
+.courses h1 {
+    width: 100%;
+    display: block;
+    text-align: center;
+    padding: 32px 0px;
+    margin: 0;
+}
+
+.card-container {
+    margin: 0 72px 32px 72px;
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+    gap: 32px;
+}
+
+.learning-card {
+    width: 30%;
+    background-color: white;
+    border: red 1px solid;
+}
+
+.learning-card img {
+    max-width: 100%;
+}
+
+.learning-card .text-container {
+    margin: 16px auto 24px 16px;
+}
