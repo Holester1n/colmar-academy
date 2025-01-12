@@ -10,13 +10,21 @@
     <body>
         <header>
             <div class = "content">
-                <a href = index.html><img src="resources/images/ic-logo.svg">ColmarAcademy</a>
-                <nav>
+                <a href = index.html id = "desktop-only"><img src="resources/images/ic-logo.svg">ColmarAcademy</a>
+                <nav id = "desktop-only">
                     <ul>
                         <li>On campus</li>
                         <li>Online</li>
                         <li>For companies</li>
                         <li>Sign in</li>
+                    </ul>
+                </nav>
+                <nav id = "mobile-only">
+                    <ul>
+                        <li><img src = "resources/images/ic-logo.svg"</li>
+                        <li><img src = "resources/images/ic-on-campus.svg"</li>
+                        <li><img src = "resources/images/ic-online.svg"</li>
+                        <li><img src = "resources/images/ic-login.svg"</li>
                     </ul>
                 </nav>
             </div>
@@ -32,7 +40,7 @@
             </div>
         </div>
         <div class = "information-section">
-            <div class = "banner">
+            <div class = "banner" id = "desktop-only">
                 <img src = "resources/images/information-main.jpg">
                 <p>
                     <h1>It doesn't hurt to keep practicing</h1>
@@ -43,7 +51,8 @@
             </div>
             <div class = "announcement-list">
                 <div class = "announcement-card">
-                    <img src = "resources/images/information-orientation.jpg">
+                    <img src = "resources/images/information-orientation.jpg" id = "desktop-only">
+                    <img src = "resources/images/information-orientation-mobile.jpg" id = "mobile-only">
                     <div class = "card-text">
                         <h1>Orientation date</h1>
                         <h4>Tue 10/11 & Wed 10/12: 8am-3pm</h4>
@@ -51,7 +60,8 @@
                     </div>
                 </div>
                 <div class = "announcement-card">
-                    <img src = "resources/images/information-campus.jpg">
+                    <img src = "resources/images/information-campus.jpg" id = "desktop-only">
+                    <img src = "resources/images/information-campus-mobile.jpg" id = "mobile-only">
                     <div class = "card-text">
                         <h1>Our campus</h1>
                         <h4>Find which campus is close by you</h4>
@@ -59,7 +69,8 @@
                     </div>
                 </div>
                 <div class = "announcement-card">
-                    <img src  = "resources/images/information-guest-lecture.jpg">
+                    <img src  = "resources/images/information-guest-lecture.jpg" id = "desktop-only">
+                    <img src = "resources/images/information-guest-lecture-mobile.jpg" id = "mobile-only">
                     <div class = "card-text">
                         <h1>Our guest lecture</h1>
                         <h4>Join a keynote with Oliver Sack about music in medical treatment</h4>
@@ -71,7 +82,7 @@
         <div class = "courses">
             <h1>Start learning</h1>
             <div class = "card-container">
-                <div class = "learning-card">
+                <div class = "learning-card" id = "desktop-only">
                     <img src = "resources/images/course-software.jpg">
                     <div class = "text-container">
                         <h2>Software engineering</h2>
@@ -79,7 +90,7 @@
                         <h3>Web Development, Mobile Development, iOT, APIs</h3>
                     </div>
                 </div>
-                <div class = "learning-card">
+                <div class = "learning-card" id = "desktop-only">
                     <img src = "resources/images/course-computer-art.jpg">
                     <div class = "text-container">
                         <h2>Computer art</h2>
@@ -87,7 +98,7 @@
                         <h3>Imaging & Design, Web Design, Motion Graphics & Visual Effects, Computer Animation</h3>
                     </div>
                 </div>
-                <div class = "learning-card">
+                <div class = "learning-card" id = "desktop-only">
                     <img src = "resources/images/course-design.jpg">
                     <div class = "text-container">
                         <h2>Design</h2>
@@ -95,7 +106,7 @@
                         <h3>User Experience Design, User Research, Visual Design</h3>
                     </div>
                 </div>
-                <div class = "learning-card">
+                <div class = "learning-card" id = "desktop-only">
                     <img src = "resources/images/course-data.jpg">
                     <div class = "text-container">
                         <h2>Data</h2>
@@ -103,7 +114,7 @@
                         <h3>Data Science, Big Data, SQL, Data Visualization</h3>
                     </div>
                 </div>
-                <div class = "learning-card">
+                <div class = "learning-card" id = "desktop-only">
                     <img src = "resources/images/course-business.jpg">
                     <div class = "text-container">
                         <h2>Business</h2>
@@ -111,7 +122,7 @@
                         <h3>Product Development, Business Development, Startup</h3>
                     </div>
                 </div>
-                <div class = "learning-card">
+                <div class = "learning-card" id = "desktop-only">
                     <img src = "resources/images/course-marketing.jpg">
                     <div class = "text-container">
                         <h2>Marketing</h2>
@@ -135,7 +146,7 @@
                             Phasellus sed consequat ex. Etiam eget magna laoreet, efficitur dolor consequat, tristique ligula."</h4>
                     </div>
                 </div>
-                <div class = "thesis-container">
+                <div class = "thesis-container" id = "desktop-only">
                     <div class = "thesis-card">
                         <img src = "resources/images/thesis-fisma.jpg">
                         <div class = "thesis-text-container">
@@ -156,7 +167,7 @@
         <footer>
             <div class = "content-container">
                 <p>&copy;2016 Colmar Academy. All rights reserved</p>
-                <div class = "terms-privacy">
+                <div class = "terms-privacy" id = "desktop-only">
                     <p>Terms</p>
                     <p>Privacy</p>
                 </div>
