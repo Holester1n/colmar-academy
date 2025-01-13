@@ -241,7 +241,7 @@ footer .content-container {
 
 @media (max-width: 768px) {
     html {
-        max-width: 768px;
+        width: 100%;
     }
     
     #desktop-only {
@@ -269,10 +269,12 @@ footer .content-container {
     .start-section {
         display: block;
         padding: 0;
+        margin-bottom: 30px;
     }
 
     .start-section img {
         width: 100%;
+        margin: 0;
     }
 
     .start-menu {
@@ -300,8 +302,53 @@ footer .content-container {
         flex-direction: column;
     }
 
+    .announcement-card h4 {
+        margin: 16px 0;
+    }
+    
     .announcement-card img {
         width: 100%;
+    }
+
+    .thesis {
+        border: 0;
+    }
+
+    video {
+        padding: 0;
+        width: 100%;
+        height: auto;
+    }
+
+    .thesis-content {
+        padding: 0;
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
+    .video-container {
+        width: 100%;
+        height: auto; 
+    }
+
+    .card-container {
+        flex-direction: column;
+        gap: 8px;
+        margin: 0 16px;
+    }
+
+    .course-card {
+        text-align: left;
+        padding: 16px auto 24px 16px;
+        background-color: lightgray;
+    }
+
+    .courses {
+        background-color: white;
+        border-bottom: 1px lightgray solid;
+        border-top: 1px lightgray solid;
+        margin-top: 35px;
     }
 }
 
