@@ -386,7 +386,21 @@ footer .content-container {
         text-align: left;
         padding: 16px auto 24px 16px;
         background-color: lightgray;
-        transition: background-color 200ms linear 30ms;
+        
+        width: 100%;
+    }
+
+    .course-card img, .text-container {
+        display: none;
+    }
+    
+    .course-card img {
+        width: 100%;
+    }
+
+    .course-card h3 {
+        margin: 16px 16px 0px 16px;
+        
     }
 
     .courses {
@@ -394,10 +408,6 @@ footer .content-container {
         border-bottom: 1px lightgray solid;
         border-top: 1px lightgray solid;
         margin-top: 35px;
-    }
-
-    .course-card:hover {
-        background-color: darkgrey;
     }
 
     .card-text {
